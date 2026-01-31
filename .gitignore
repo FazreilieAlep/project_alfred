@@ -1,0 +1,75 @@
+# =====================
+# Node / Next.js frontend
+# =====================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/package-lock.json
+
+# Optional: Yarn if you use it
+frontend/yarn.lock
+
+# =====================
+# Python / Django backend
+# =====================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.pyo
+backend/*.sqlite3
+backend/env/
+backend/.env
+backend/venv/
+backend/.venv
+backend/*.log
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+
+# =====================
+# Databases (local / temp)
+# =====================
+postgres-data/
+mongo-data/
+
+# =====================
+# Docker
+# =====================
+**/docker-compose.override.yml
+**/Dockerfile.dev
+**/*.env   # any env files with secrets
+**/tmp/
+**/logs/
+
+# =====================
+# Kafka / message brokers
+# =====================
+kafka-logs/
+zookeeper-logs/
+
+# =====================
+# VSCode / IDEs
+# =====================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# OS-specific
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# =====================
+# Optional build / coverage
+# =====================
+coverage/
+*.egg-info/
+dist/
+build/
