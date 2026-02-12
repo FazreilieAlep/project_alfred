@@ -32,8 +32,8 @@ backend/.coverage
 # =====================
 # Databases (local / temp)
 # =====================
-postgres-data/
-mongo-data/
+db_volume/
+init-user.sql
 
 # =====================
 # Docker
@@ -73,3 +73,5 @@ coverage/
 *.egg-info/
 dist/
 build/
+.env
+
